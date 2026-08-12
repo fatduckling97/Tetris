@@ -21,10 +21,20 @@
     <ClCompile Include="Game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Resource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Resource.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+    <None Include="README.md" />
   </ItemGroup>
 </Project>
