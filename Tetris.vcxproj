@@ -145,17 +145,35 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Game.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Resource.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Game.hpp" />
-    <ClInclude Include="Resource.hpp" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include=".gitignore" />
     <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Game.hpp" />
+    <ClInclude Include="include\Resource.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Game.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Resource.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\bg-bottom.png" />
+    <Image Include="assets\bg-corner-bottom-left.png" />
+    <Image Include="assets\bg-corner-bottom-right.png" />
+    <Image Include="assets\bg-corner-top-left.png" />
+    <Image Include="assets\bg-corner-top-right.png" />
+    <Image Include="assets\bg-left.png" />
+    <Image Include="assets\bg-right.png" />
+    <Image Include="assets\bg-top.png" />
+    <Image Include="assets\bg.png" />
+    <Image Include="assets\block-blue.png" />
+    <Image Include="assets\block-cyan.png" />
+    <Image Include="assets\block-green.png" />
+    <Image Include="assets\block-orange.png" />
+    <Image Include="assets\block-purple.png" />
+    <Image Include="assets\block-red.png" />
+    <Image Include="assets\block-yellow.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

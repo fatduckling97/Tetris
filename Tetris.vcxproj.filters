@@ -15,26 +15,76 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Game.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Resource.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Game.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Resource.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <None Include=".gitignore" />
     <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Game.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Resource.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Resource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\bg.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bg-bottom.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bg-corner-bottom-left.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bg-corner-bottom-right.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bg-corner-top-left.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bg-corner-top-right.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bg-left.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bg-right.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\bg-top.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\block-blue.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\block-cyan.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\block-green.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\block-orange.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\block-purple.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\block-red.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\block-yellow.png">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>
