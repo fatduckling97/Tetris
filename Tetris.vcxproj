@@ -158,22 +158,22 @@
     <ClCompile Include="src\Resource.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="assets\bg-bottom-left.png" />
+    <Image Include="assets\bg-bottom-right.png" />
     <Image Include="assets\bg-bottom.png" />
-    <Image Include="assets\bg-corner-bottom-left.png" />
-    <Image Include="assets\bg-corner-bottom-right.png" />
-    <Image Include="assets\bg-corner-top-left.png" />
-    <Image Include="assets\bg-corner-top-right.png" />
     <Image Include="assets\bg-left.png" />
     <Image Include="assets\bg-right.png" />
+    <Image Include="assets\bg-top-left.png" />
+    <Image Include="assets\bg-top-right.png" />
     <Image Include="assets\bg-top.png" />
     <Image Include="assets\bg.png" />
-    <Image Include="assets\block-blue.png" />
-    <Image Include="assets\block-cyan.png" />
-    <Image Include="assets\block-green.png" />
-    <Image Include="assets\block-orange.png" />
-    <Image Include="assets\block-purple.png" />
-    <Image Include="assets\block-red.png" />
-    <Image Include="assets\block-yellow.png" />
+    <Image Include="assets\blue-block.png" />
+    <Image Include="assets\cyan-block.png" />
+    <Image Include="assets\green-block.png" />
+    <Image Include="assets\orange-block.png" />
+    <Image Include="assets\purple-block.png" />
+    <Image Include="assets\red-block.png" />
+    <Image Include="assets\yellow-block.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

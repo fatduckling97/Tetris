@@ -44,18 +44,6 @@
     <Image Include="assets\bg-bottom.png">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="assets\bg-corner-bottom-left.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="assets\bg-corner-bottom-right.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="assets\bg-corner-top-left.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="assets\bg-corner-top-right.png">
-      <Filter>Resource Files</Filter>
-    </Image>
     <Image Include="assets\bg-left.png">
       <Filter>Resource Files</Filter>
     </Image>
@@ -65,25 +53,37 @@
     <Image Include="assets\bg-top.png">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="assets\block-blue.png">
+    <Image Include="assets\bg-bottom-left.png">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="assets\block-cyan.png">
+    <Image Include="assets\bg-bottom-right.png">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="assets\block-green.png">
+    <Image Include="assets\bg-top-left.png">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="assets\block-orange.png">
+    <Image Include="assets\bg-top-right.png">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="assets\block-purple.png">
+    <Image Include="assets\blue-block.png">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="assets\block-red.png">
+    <Image Include="assets\cyan-block.png">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="assets\block-yellow.png">
+    <Image Include="assets\green-block.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\orange-block.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\purple-block.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\red-block.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\yellow-block.png">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>

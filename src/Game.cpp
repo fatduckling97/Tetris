@@ -7,16 +7,16 @@ Game::Game()
 {
 	m_resources.loadTexture(TextureId::background, "assets/bg.png");
 	m_resources.loadTexture(TextureId::ui, "assets/bg-top.png");
-	m_resources.loadTexture(TextureId::blocks, "assets/block-yellow.png");
+	m_resources.loadTexture(TextureId::blocks, "assets/yellow-block.png");
 
 	m_basedBackground.emplace(m_resources.getTexture(TextureId::background));
 	m_basedBackground->setPosition({ 0.f, 0.f });
 
 	m_uiBackground.emplace(m_resources.getTexture(TextureId::ui));
-	m_uiBackground->setPosition({ 0.f, 10.0f });
+	m_uiBackground->setPosition({ 0.f, 100.0f });
 
 	m_yellowBlock.emplace(m_resources.getTexture(TextureId::blocks));
-	m_yellowBlock->setPosition({ 0.f, 20.0f });
+	m_yellowBlock->setPosition({ 0.f, 200.0f });
 }
 
 Game::~Game() {
