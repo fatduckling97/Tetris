@@ -149,10 +149,14 @@
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\Board.hpp" />
+    <ClInclude Include="include\BoardRenderer.hpp" />
     <ClInclude Include="include\Game.hpp" />
     <ClInclude Include="include\Resource.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Board.cpp" />
+    <ClCompile Include="src\BoardRenderer.cpp" />
     <ClCompile Include="src\Game.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\Resource.cpp" />
